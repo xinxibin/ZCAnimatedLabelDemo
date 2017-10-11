@@ -1,0 +1,12 @@
+PODS:
+  - LTMorphingLabel (0.5.3)
+
+DEPENDENCIES:
+  - LTMorphingLabel
+
+SPEC CHECKSUMS:
+  LTMorphingLabel: b85b6c1c5d0c4203e22f8d3dca722546f67b8410
+
+PODFILE CHECKSUM: bb0ef6e43b3d41b0b3f1fafafd3c558794caf433
+
+COCOAPODS: 1.2.0

@@ -12,6 +12,22 @@
 		416161D21F57F98B0084668C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416161D01F57F98B0084668C /* Main.storyboard */; };
 		416161D41F57F98B0084668C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416161D31F57F98B0084668C /* Assets.xcassets */; };
 		416161D71F57F98B0084668C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416161D51F57F98B0084668C /* LaunchScreen.storyboard */; };
+		416161E01F57F9DA0084668C /* launchScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416161DE1F57F9DA0084668C /* launchScreen@2x.png */; };
+		416161E11F57F9DA0084668C /* launchScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416161DF1F57F9DA0084668C /* launchScreen@3x.png */; };
+		416161FD1F5807860084668C /* ZCAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161E41F5807860084668C /* ZCAnimatedLabel.m */; };
+		416161FE1F5807860084668C /* ZCCoreTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161E61F5807860084668C /* ZCCoreTextLayout.m */; };
+		416161FF1F5807860084668C /* ZCDashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161E81F5807860084668C /* ZCDashLabel.m */; };
+		416162001F5807860084668C /* ZCDuangLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161EA1F5807860084668C /* ZCDuangLabel.m */; };
+		416162011F5807860084668C /* ZCEasingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161EC1F5807860084668C /* ZCEasingUtil.m */; };
+		416162021F5807860084668C /* ZCFallLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161EE1F5807860084668C /* ZCFallLabel.m */; };
+		416162031F5807860084668C /* ZCFlyinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161F01F5807860084668C /* ZCFlyinLabel.m */; };
+		416162041F5807860084668C /* ZCFocusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161F21F5807860084668C /* ZCFocusLabel.m */; };
+		416162051F5807860084668C /* ZCRevealLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161F41F5807860084668C /* ZCRevealLabel.m */; };
+		416162061F5807860084668C /* ZCShapeshiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161F61F5807860084668C /* ZCShapeshiftLabel.m */; };
+		416162071F5807860084668C /* ZCSpinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161F81F5807860084668C /* ZCSpinLabel.m */; };
+		416162081F5807860084668C /* ZCThrownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161FA1F5807860084668C /* ZCThrownLabel.m */; };
+		416162091F5807860084668C /* ZCTransparencyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416161FC1F5807860084668C /* ZCTransparencyLabel.m */; };
+		94B8FF3A85E661D7EF9EF509 /* Pods_TestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B077E79C7E5756EFFF08B7 /* Pods_TestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,38 @@
 		416161D31F57F98B0084668C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		416161D61F57F98B0084668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		416161D81F57F98B0084668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416161DE1F57F9DA0084668C /* launchScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchScreen@2x.png"; sourceTree = "<group>"; };
+		416161DF1F57F9DA0084668C /* launchScreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchScreen@3x.png"; sourceTree = "<group>"; };
+		416161E31F5807860084668C /* ZCAnimatedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAnimatedLabel.h; sourceTree = "<group>"; };
+		416161E41F5807860084668C /* ZCAnimatedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAnimatedLabel.m; sourceTree = "<group>"; };
+		416161E51F5807860084668C /* ZCCoreTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCoreTextLayout.h; sourceTree = "<group>"; };
+		416161E61F5807860084668C /* ZCCoreTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCoreTextLayout.m; sourceTree = "<group>"; };
+		416161E71F5807860084668C /* ZCDashLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDashLabel.h; sourceTree = "<group>"; };
+		416161E81F5807860084668C /* ZCDashLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDashLabel.m; sourceTree = "<group>"; };
+		416161E91F5807860084668C /* ZCDuangLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDuangLabel.h; sourceTree = "<group>"; };
+		416161EA1F5807860084668C /* ZCDuangLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDuangLabel.m; sourceTree = "<group>"; };
+		416161EB1F5807860084668C /* ZCEasingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCEasingUtil.h; sourceTree = "<group>"; };
+		416161EC1F5807860084668C /* ZCEasingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCEasingUtil.m; sourceTree = "<group>"; };
+		416161ED1F5807860084668C /* ZCFallLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFallLabel.h; sourceTree = "<group>"; };
+		416161EE1F5807860084668C /* ZCFallLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFallLabel.m; sourceTree = "<group>"; };
+		416161EF1F5807860084668C /* ZCFlyinLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFlyinLabel.h; sourceTree = "<group>"; };
+		416161F01F5807860084668C /* ZCFlyinLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFlyinLabel.m; sourceTree = "<group>"; };
+		416161F11F5807860084668C /* ZCFocusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFocusLabel.h; sourceTree = "<group>"; };
+		416161F21F5807860084668C /* ZCFocusLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFocusLabel.m; sourceTree = "<group>"; };
+		416161F31F5807860084668C /* ZCRevealLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRevealLabel.h; sourceTree = "<group>"; };
+		416161F41F5807860084668C /* ZCRevealLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRevealLabel.m; sourceTree = "<group>"; };
+		416161F51F5807860084668C /* ZCShapeshiftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCShapeshiftLabel.h; sourceTree = "<group>"; };
+		416161F61F5807860084668C /* ZCShapeshiftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCShapeshiftLabel.m; sourceTree = "<group>"; };
+		416161F71F5807860084668C /* ZCSpinLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSpinLabel.h; sourceTree = "<group>"; };
+		416161F81F5807860084668C /* ZCSpinLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSpinLabel.m; sourceTree = "<group>"; };
+		416161F91F5807860084668C /* ZCThrownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCThrownLabel.h; sourceTree = "<group>"; };
+		416161FA1F5807860084668C /* ZCThrownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCThrownLabel.m; sourceTree = "<group>"; };
+		416161FB1F5807860084668C /* ZCTransparencyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTransparencyLabel.h; sourceTree = "<group>"; };
+		416161FC1F5807860084668C /* ZCTransparencyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTransparencyLabel.m; sourceTree = "<group>"; };
+		4161620E1F5809930084668C /* TestDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		85808E760D4199F870F1F0A5 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		89B077E79C7E5756EFFF08B7 /* Pods_TestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD730D563F9568453DBC8C67 /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B8FF3A85E661D7EF9EF509 /* Pods_TestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +89,8 @@
 			children = (
 				416161CB1F57F98B0084668C /* TestDemo */,
 				416161CA1F57F98B0084668C /* Products */,
+				E57CF53F31A74FA300ABA719 /* Pods */,
+				AC3735D8A325825C80642095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,68 @@
 		416161CB1F57F98B0084668C /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				416161E21F5807860084668C /* ZCAnimatedLabel */,
+				416161DE1F57F9DA0084668C /* launchScreen@2x.png */,
+				416161DF1F57F9DA0084668C /* launchScreen@3x.png */,
 				416161CC1F57F98B0084668C /* AppDelegate.swift */,
 				416161CE1F57F98B0084668C /* ViewController.swift */,
+				4161620E1F5809930084668C /* TestDemo-Bridging-Header.h */,
 				416161D01F57F98B0084668C /* Main.storyboard */,
 				416161D31F57F98B0084668C /* Assets.xcassets */,
 				416161D51F57F98B0084668C /* LaunchScreen.storyboard */,
 				416161D81F57F98B0084668C /* Info.plist */,
 			);
 			path = TestDemo;
+			sourceTree = "<group>";
+		};
+		416161E21F5807860084668C /* ZCAnimatedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				416161E31F5807860084668C /* ZCAnimatedLabel.h */,
+				416161E41F5807860084668C /* ZCAnimatedLabel.m */,
+				416161E51F5807860084668C /* ZCCoreTextLayout.h */,
+				416161E61F5807860084668C /* ZCCoreTextLayout.m */,
+				416161E71F5807860084668C /* ZCDashLabel.h */,
+				416161E81F5807860084668C /* ZCDashLabel.m */,
+				416161E91F5807860084668C /* ZCDuangLabel.h */,
+				416161EA1F5807860084668C /* ZCDuangLabel.m */,
+				416161EB1F5807860084668C /* ZCEasingUtil.h */,
+				416161EC1F5807860084668C /* ZCEasingUtil.m */,
+				416161ED1F5807860084668C /* ZCFallLabel.h */,
+				416161EE1F5807860084668C /* ZCFallLabel.m */,
+				416161EF1F5807860084668C /* ZCFlyinLabel.h */,
+				416161F01F5807860084668C /* ZCFlyinLabel.m */,
+				416161F11F5807860084668C /* ZCFocusLabel.h */,
+				416161F21F5807860084668C /* ZCFocusLabel.m */,
+				416161F31F5807860084668C /* ZCRevealLabel.h */,
+				416161F41F5807860084668C /* ZCRevealLabel.m */,
+				416161F51F5807860084668C /* ZCShapeshiftLabel.h */,
+				416161F61F5807860084668C /* ZCShapeshiftLabel.m */,
+				416161F71F5807860084668C /* ZCSpinLabel.h */,
+				416161F81F5807860084668C /* ZCSpinLabel.m */,
+				416161F91F5807860084668C /* ZCThrownLabel.h */,
+				416161FA1F5807860084668C /* ZCThrownLabel.m */,
+				416161FB1F5807860084668C /* ZCTransparencyLabel.h */,
+				416161FC1F5807860084668C /* ZCTransparencyLabel.m */,
+			);
+			path = ZCAnimatedLabel;
+			sourceTree = "<group>";
+		};
+		AC3735D8A325825C80642095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B077E79C7E5756EFFF08B7 /* Pods_TestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57CF53F31A74FA300ABA719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD730D563F9568453DBC8C67 /* Pods-TestDemo.debug.xcconfig */,
+				85808E760D4199F870F1F0A5 /* Pods-TestDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 416161DB1F57F98B0084668C /* Build configuration list for PBXNativeTarget "TestDemo" */;
 			buildPhases = (
+				8AC688F62EA9938BAA222487 /* [CP] Check Pods Manifest.lock */,
 				416161C51F57F98B0084668C /* Sources */,
 				416161C61F57F98B0084668C /* Frameworks */,
 				416161C71F57F98B0084668C /* Resources */,
+				3DAB6ACD3363AB8A0EACEB46 /* [CP] Embed Pods Frameworks */,
+				6B06147C27624E96137BE931 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +232,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				416161D71F57F98B0084668C /* LaunchScreen.storyboard in Resources */,
+				416161E11F57F9DA0084668C /* launchScreen@3x.png in Resources */,
 				416161D41F57F98B0084668C /* Assets.xcassets in Resources */,
 				416161D21F57F98B0084668C /* Main.storyboard in Resources */,
+				416161E01F57F9DA0084668C /* launchScreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DAB6ACD3363AB8A0EACEB46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B06147C27624E96137BE931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDemo/Pods-TestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC688F62EA9938BAA222487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		416161C51F57F98B0084668C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416162091F5807860084668C /* ZCTransparencyLabel.m in Sources */,
+				416161FD1F5807860084668C /* ZCAnimatedLabel.m in Sources */,
 				416161CF1F57F98B0084668C /* ViewController.swift in Sources */,
+				416161FE1F5807860084668C /* ZCCoreTextLayout.m in Sources */,
+				416162081F5807860084668C /* ZCThrownLabel.m in Sources */,
+				416162051F5807860084668C /* ZCRevealLabel.m in Sources */,
 				416161CD1F57F98B0084668C /* AppDelegate.swift in Sources */,
+				416162041F5807860084668C /* ZCFocusLabel.m in Sources */,
+				416162021F5807860084668C /* ZCFallLabel.m in Sources */,
+				416162071F5807860084668C /* ZCSpinLabel.m in Sources */,
+				416162011F5807860084668C /* ZCEasingUtil.m in Sources */,
+				416161FF1F5807860084668C /* ZCDashLabel.m in Sources */,
+				416162031F5807860084668C /* ZCFlyinLabel.m in Sources */,
+				416162061F5807860084668C /* ZCShapeshiftLabel.m in Sources */,
+				416162001F5807860084668C /* ZCDuangLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +429,30 @@
 		};
 		416161DC1F57F98B0084668C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD730D563F9568453DBC8C67 /* Pods-TestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xinxibin.com.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xinxibin/Desktop/TestDemo/TestDemo/TestDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		416161DD1F57F98B0084668C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85808E760D4199F870F1F0A5 /* Pods-TestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xinxibin.com.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xinxibin/Desktop/TestDemo/TestDemo/TestDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +476,7 @@
 				416161DD1F57F98B0084668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,47 +1,19 @@
-//
-//  ViewController.swift
-//  TestDemo
-//
-//  Created by Xinxibin on 2017/8/31.
-//  Copyright © 2017年 xiaoxin. All rights reserved.
-//
+# ZCAnimatedLabelDemo
 
-import UIKit
+简单实用：
 
-
-class ViewController: UIViewController {
-
-    @IBOutlet weak var label: ZCAnimatedLabel!
-    
-    var imageView: UIImageView?
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        print("viewDidLoad \(Date())");
-
-        
-        imageView = UIImageView(image: UIImage(named: "launchScreen"));
-        imageView?.frame = self.view.bounds
-        self.view.addSubview(imageView!)
-        
-        self.label = ZCTransparencyLabel(frame: CGRect(x: 15, y: 100, width: self.view.frame.size.width - 30, height: 300))
+```swift
+	// 创建
+   self.label = ZCTransparencyLabel(frame: CGRect(x: 15, y: 100, width: self.view.frame.size.width - 30, height: 300))
         imageView?.addSubview(self.label)
         
-        UIView.animate(withDuration: 10, animations: {
+        UIView.animate(withDuration: 10, animations:{
+        	// 开始动画
             self.animateLabelAppear()
         }) { (_) in
-//            self.imageView?.removeFromSuperview()
-        }
-//        Thread.sleep(forTimeInterval: 1.0) //延长3秒
-        
-        
-    }
-    @IBAction func onBtnClick(_ sender: UIButton) {
-        animateLabelAppear()
-    }
-    
-    func animateLabelAppear() {
+}
+
+func animateLabelAppear() {
         
         self.label.startDisappearAnimation()
         self.label.animationDuration = 0.8
@@ -66,11 +38,4 @@ class ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
-
+```
